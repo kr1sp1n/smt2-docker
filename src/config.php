@@ -3,7 +3,7 @@
  * This is the directory where you put the smt2 CMS.
  * You can use relative as well as full URLs like /smt2/ or http://myserver.name/smt2/
  */
-define ('ABS_PATH', "/smt2/"); // always put an ending slash (/)
+define ('ABS_PATH', getenv('SMT2_ENDPOINT')); // always put an ending slash (/)
 
 // ----------------------------------------------------- MySQL database info ---
 
